@@ -28,8 +28,7 @@ export default async function Cart() {
       slug: 'cart',
     })
 
-    console.log(page.layout);
-
+    console.log(page.layout)
   } catch (error) {
     // when deploying this template on Payload Cloud, this page needs to build before the APIs are live
     // so swallow the error here and simply render the page with fallback data where necessary
